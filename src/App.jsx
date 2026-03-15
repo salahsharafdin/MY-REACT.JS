@@ -1,18 +1,15 @@
 import React from "react";
 
-import Header from "./componenst/Header";
-import Footer from "./componenst/Footer";
-import Hero from "./componenst/hero";
-import About from "./componenst/about";
+import HomePage from "./HomePage";
+import ContactPage from "./ContactPage";
 
-export const App = () => {
+
+const App = () => {
     return (
         <>
-        <Header />
-        <Hero />
-        <About />
-        <Footer />
+      <HomePage />
+      <ContactPage />
         </>
     )
 }
-export default App;
+export default App
