@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./componenst/Header";
 import Footer from "./componenst/Footer";
-import Contact from "./componenst/contact";
+import Contact from "./componenst/Contact";
 
 const ContactPage = () => {
     return (
